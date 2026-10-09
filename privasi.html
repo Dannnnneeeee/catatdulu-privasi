@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kebijakan Privasi CatatDulu</title>
+<meta name="description" content="Kebijakan privasi aplikasi Android CatatDulu.">
+<style>
+  :root { --bg:#fff; --fg:#171717; --fg2:#5C5C5C; --line:#E6E6E6; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    font-size:16px; line-height:1.6; }
+  main { max-width:680px; margin:0 auto; padding:40px 16px 56px; }
+  h1 { font-size:26px; letter-spacing:-.3px; margin:0 0 4px; }
+  .sub { color:var(--fg2); margin:0 0 28px; }
+  h2 { font-size:18px; margin:28px 0 8px; }
+  ul { padding-left:20px; margin:8px 0; }
+  li { margin:4px 0; }
+  a { color:var(--fg); }
+  code { font-size:14px; }
+  footer { border-top:1px solid var(--line); margin-top:40px; padding-top:16px;
+    color:var(--fg2); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Kebijakan Privasi CatatDulu</h1>
+  <p class="sub">Berlaku sejak 9 Oktober 2026</p>
+
+  <p>Kebijakan ini menjelaskan data apa yang dipakai aplikasi Android CatatDulu, di mana data itu
+  disimpan, dan bagaimana aplikasi memakai akun Google. CatatDulu dibuat oleh ProjectKu.</p>
+
+  <h2>Ringkasnya</h2>
+  <ul>
+    <li>Data toko disimpan di HP toko.</li>
+    <li>Kalau toko memakai Google, data hanya dikirim ke Google Drive dan Google Sheet milik akun
+      Google toko sendiri.</li>
+    <li>Pembuat aplikasi tidak menerima, tidak menyimpan, dan tidak bisa melihat data toko.</li>
+    <li>Tidak ada iklan, tidak ada pelacakan, dan tidak ada data yang dijual atau dibagikan ke
+      pihak lain.</li>
+  </ul>
+
+  <h2>Data yang disimpan di HP</h2>
+  <p>Aplikasi menyimpan data yang dimasukkan toko sendiri: produk dan jenisnya, harga, stok dan
+  riwayatnya, transaksi penjualan, serta pengaturan (nama, alamat, dan telepon toko, catatan kaki
+  struk, dan printer yang dipilih). Aplikasi juga menyimpan alamat email akun Google yang dipakai,
+  supaya Pengaturan bisa menampilkan status tanpa internet. Aplikasi membuat salinan database di
+  dalam penyimpanan pribadi aplikasi sebagai pengaman. Semua data ini tidak bisa dibuka aplikasi
+  lain, dan terhapus kalau aplikasi di-uninstall.</p>
+
+  <h2>Akun Google, Google Drive, dan Google Sheets</h2>
+  <p>Login Google tidak diperlukan untuk memakai aplikasi. Login hanya diminta kalau toko memakai
+  fitur Kirim ke Sheet atau cadangan. Aplikasi meminta satu izin saja:</p>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/drive.file</code>: melihat, membuat, mengubah, dan
+      menghapus <strong>hanya file Google Drive yang dibuat oleh aplikasi ini</strong>. Aplikasi
+      tidak bisa membuka file lain di Google Drive toko.</li>
+  </ul>
+  <p>Dengan izin itu, aplikasi:</p>
+  <ul>
+    <li>membuat dan memperbarui Google Sheet berisi penjualan, rekap, daftar produk, dan riwayat
+      stok, termasuk arsip bulanan;</li>
+    <li>mengunggah cadangan database ke folder cadangan di Google Drive toko, dan memindahkan
+      cadangan lama ke Sampah Drive;</li>
+    <li>membaca daftar file buatannya sendiri, untuk memilih sheet dan memulihkan cadangan ke
+      HP.</li>
+  </ul>
+  <p>Data dikirim langsung dari HP ke Google, tanpa server perantara milik pembuat aplikasi.
+  Aplikasi tidak memakai data Google untuk iklan, tidak menjualnya, tidak memindahkannya ke pihak
+  lain, dan tidak memakainya untuk melatih model kecerdasan buatan. Tidak ada orang yang membaca
+  data tersebut. Penggunaan dan pemindahan informasi yang diterima dari Google API mematuhi
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+  User Data Policy</a>, termasuk persyaratan Limited Use.</p>
+
+  <h2>Printer Bluetooth</h2>
+  <p>Aplikasi meminta izin "Perangkat di sekitar" hanya untuk menyambung ke printer struk yang
+  sudah dipasangkan di HP. Aplikasi tidak memakai lokasi.</p>
+
+  <h2>Mencabut akses dan menghapus data</h2>
+  <ul>
+    <li>Akses aplikasi ke akun Google bisa dicabut kapan saja di
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+      Data di HP tetap ada.</li>
+    <li>Google Sheet, arsip, dan cadangan bisa dihapus langsung dari Google Drive toko.</li>
+    <li>Data di HP terhapus kalau aplikasi di-uninstall atau datanya dihapus di Setelan Android.</li>
+  </ul>
+
+  <h2>Anak-anak</h2>
+  <p>Aplikasi ini untuk pemilik dan pengelola toko, dan tidak ditujukan untuk anak-anak.</p>
+
+  <h2>Perubahan kebijakan</h2>
+  <p>Kalau cara aplikasi memakai data berubah, kebijakan ini diperbarui lebih dulu, dan tanggal di
+  atas ikut diganti. Perubahan yang memperluas pemakaian data Google akan diberitahukan dan
+  meminta persetujuan toko sebelum berlaku.</p>
+
+  <h2>Kontak</h2>
+  <p>Pertanyaan tentang kebijakan ini: <a href="mailto:GANTI_EMAIL_KONTAK">GANTI_EMAIL_KONTAK</a></p>
+
+  <footer>
+    <a href="index.html">CatatDulu</a> · © 2026 ProjectKu
+  </footer>
+</main>
+</body>
+</html>
